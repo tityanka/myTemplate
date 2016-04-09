@@ -1,28 +1,28 @@
 {
-  "name": "test_project",
+  "name": "my_app",
   "version": "1.0.0",
-  "description": "",
+  "description": "My Template",
   "main": "gulpfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tityanka/test_project.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tityanka/test_project/issues"
-  },
-  "homepage": "https://github.com/tityanka/test_project#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean-css": "^2.0.5",
+    "gulp-concat-css": "^2.2.0",
+    "gulp-if": "^2.0.0",
+    "gulp-imagemin": "^2.4.0",
     "gulp-sass": "^2.2.0",
-    "gulp-server-livereload": "^1.7.3"
+    "gulp-server-livereload": "^1.7.3",
+    "gulp-uglify": "^1.5.3",
+    "gulp-uncss": "^1.0.5",
+    "gulp-useref": "^3.0.7",
+    "wiredep": "^4.0.0"
   },
   "dependencies": {
-    "wiredep": "^4.0.0"
-  }
+    "gulp-rimraf": "^0.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "T.Viter",
+  "license": "ISC"
 }

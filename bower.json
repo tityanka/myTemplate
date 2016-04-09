@@ -1,9 +1,8 @@
 {
-  "name": "test_project",
+  "name": "it_cat_app",
   "description": "",
-  "main": "gulpfile.js",
+  "main": "index.js",
   "license": "ISC",
-  "moduleType": [],
   "homepage": "",
   "ignore": [
     "**/.*",
@@ -11,5 +10,8 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "Materialize": "materialize#^0.97.6"
+  }
 }
