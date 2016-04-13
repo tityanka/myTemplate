@@ -9,7 +9,7 @@ var server = require('gulp-server-livereload'),
     gulpif = require('gulp-if'),
     uglify = require('gulp-uglify'),
     cleanCSS = require('gulp-clean-css'),
-    rimraf = require('gulp-rimraf'),
+    rimraf = require('rimraf'),
     imagemin = require('gulp-imagemin'),
     uncss = require('gulp-uncss');
 
@@ -44,9 +44,9 @@ gulp.task('styles', function() {
             cascade: false
         }))
         .pipe(concatCss('main.css'))
-        .pipe(uncss({
-            html: ['app/**/*.html']
-        }))
+        // .pipe(uncss({
+        //     html: ['app/**/*.html']
+        // }))
         .pipe(gulp.dest('app/css'));
 
 });
