@@ -1,6 +1,6 @@
 {
-  "name": "my_app",
-  "description": "My Template",
+  "name": "start",
+  "description": "start",
   "main": "gulpfile.js",
   "license": "ISC",
   "homepage": "",
@@ -12,9 +12,6 @@
     "tests"
   ],
   "dependencies": {
-    "Materialize": "materialize#^0.97.6",
-    "angular": "^1.5.3",
-    "jquery": "^2.2.3",
-    "angular-ui-router": "^0.2.18"
+    "jquery": "^3.1.1"
   }
 }
